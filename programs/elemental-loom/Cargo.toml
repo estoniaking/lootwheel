@@ -1,0 +1,27 @@
+[package]
+name = "elemental-loom"
+version = "1.0.0"
+description = "Loot Wheel - A decentralized prize wheel protocol on Solana"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/yourusername/lootwheel"
+homepage = "https://lootwheel.com"
+
+[package.metadata.solana]
+security-txt = "https://lootwheel.com/.well-known/security.txt"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "loot_wheel_secure"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+idl-build = ["anchor-lang/idl-build"]
+
+[dependencies]
+solana-security-txt = "1.1.1"
+anchor-lang = "0.32.1"

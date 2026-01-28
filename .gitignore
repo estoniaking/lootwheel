@@ -1,0 +1,16 @@
+# Build artifacts
+target/
+.anchor/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Keys - NEVER commit
+*.json
+!Cargo.lock
+
+# Logs
+*.log
