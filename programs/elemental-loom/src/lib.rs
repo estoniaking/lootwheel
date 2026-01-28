@@ -1,6 +1,6 @@
 use anchor_lang::prelude::*;
 
-declare_id!("LW3BRgqg9QCZurj5yCMbNt6r3VUC9j1D5zMrHBUkFwJ");
+declare_id!("LWFmT9qTBcusXQnfDzrYfN8rS6eybuDM7ZSrZQdQNrN");
 
 #[cfg(not(feature = "no-entrypoint"))]
 use solana_security_txt::security_txt;
@@ -9,11 +9,14 @@ use solana_security_txt::security_txt;
 security_txt! {
     name: "Loot Wheel",
     project_url: "https://lootwheel.com",
-    contacts: "email:lootwheel@test.com",
+    contacts: "email:security@lootwheel.com",
     policy: "https://lootwheel.com/security",
     preferred_languages: "en",
     source_code: "https://lootwheel.com"
 }
+
+
+
 
 
 /// Helper function to log payout information to transaction logs.

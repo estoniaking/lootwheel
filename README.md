@@ -4,7 +4,7 @@ This repository contains the source code for the Loot Wheel Solana program.
 
 ## Program ID
 
-`LW3BRgqg9QCZurj5yCMbNt6r3VUC9j1D5zMrHBUkFwJ`
+`LWFmT9qTBcusXQnfDzrYfN8rS6eybuDM7ZSrZQdQNrN`
 
 ## Verification
 
@@ -14,7 +14,7 @@ To verify:
 ```bash
 solana-verify verify-from-repo \
     -u mainnet \
-    --program-id LW3BRgqg9QCZurj5yCMbNt6r3VUC9j1D5zMrHBUkFwJ \
+    --program-id LWFmT9qTBcusXQnfDzrYfN8rS6eybuDM7ZSrZQdQNrN \
     https://github.com/estoniaking/lootwheel
 ```
 
