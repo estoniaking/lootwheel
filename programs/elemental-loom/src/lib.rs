@@ -1,6 +1,6 @@
 use anchor_lang::prelude::*;
 
-declare_id!("LWmWR7dBWY7CLsMvn66V7LdSr9JHNEgJuoKwfP71r6f");
+declare_id!("LWPs7Pzi5h1Qq5nVfik81EDzWfTsxgwmbJV9L3qavuB");
 
 #[cfg(not(feature = "no-entrypoint"))]
 use solana_security_txt::security_txt;

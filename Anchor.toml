@@ -6,13 +6,13 @@ resolution = true
 skip-lint = false
 
 [programs.devnet]
-loot_wheel_secure = "LWmWR7dBWY7CLsMvn66V7LdSr9JHNEgJuoKwfP71r6f"
+loot_wheel_secure = "LWPs7Pzi5h1Qq5nVfik81EDzWfTsxgwmbJV9L3qavuB"
 
 [programs.localnet]
-loot_wheel_secure = "LWmWR7dBWY7CLsMvn66V7LdSr9JHNEgJuoKwfP71r6f"
+loot_wheel_secure = "LWPs7Pzi5h1Qq5nVfik81EDzWfTsxgwmbJV9L3qavuB"
 
 [programs.mainnet]
-loot_wheel_secure = "LWmWR7dBWY7CLsMvn66V7LdSr9JHNEgJuoKwfP71r6f"
+loot_wheel_secure = "LWPs7Pzi5h1Qq5nVfik81EDzWfTsxgwmbJV9L3qavuB"
 
 [registry]
 url = "https://api.apr.dev"
