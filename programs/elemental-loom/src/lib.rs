@@ -1,6 +1,6 @@
 use anchor_lang::prelude::*;
 
-declare_id!("LW3jq66SJ6uLoo3q8D9tym1KwdjBmK4hR2rLSR4SoVv");
+declare_id!("LootPA5hJEEsBNz6WcDY2CnS9UZe1f34n9pfuqVLkqk");
 
 #[cfg(not(feature = "no-entrypoint"))]
 use solana_security_txt::security_txt;
@@ -12,7 +12,7 @@ security_txt! {
     contacts: "lootwheel@protonmail.com",
     policy: "https://lootwheel.com/security",
     preferred_languages: "en",
-    source_code: "https://lootwheel.com"
+    source_code: "https://github.com/estoniaking/lootwheel"
 }
 
 
